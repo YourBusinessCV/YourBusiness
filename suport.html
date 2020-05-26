@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>Your Business</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/suportstyle.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+
+</head>
+
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="index.html">Inicio</a></li>
+                        <li><a class="nav-link" href="http://localhost/CV/login/index.php">Iniciar Sesion</a></li>
+                        <li><a class="nav-link" href="cycv.html">Planes</a></li>
+                        <li><a class="nav-link active" style="background:#fff;color:#000;" href="http://localhost/CV/login/index.php">Registrate</a></li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Search">
+                    <a class="search-btn">
+                        <img src="images/search_icon.png" alt="#" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+  
+  <form action="enviar.php" method="post">
+
+<h2>CONTACTANOS</h2>
+<input type="text" name="nombre" placeholder="Nombre" required>     <!--required sirve para advertencio de formulario basio-->
+<input type="text" name="correo" placeholder="Correo"required>
+<input type="text" name="telefono" placeholder="Telefono"required>
+<textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+<input type="submit" value="ENVIAR" id="boton">
+
+  </form>
+
+ 
+</body>
+
+</html>

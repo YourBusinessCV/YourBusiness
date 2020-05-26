@@ -1,0 +1,150 @@
+
+ a, .btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+/*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
+ .top-header .navbar{
+     padding: 5px 0px;
+}
+ .top-header {
+     background-image: url("../images/header_img.png");
+     position: relative;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     margin: 0 auto;
+     z-index: 20;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-color: #0892fd;
+     background-size: auto 100%;
+}
+ .top-header .navbar .navbar-collapse ul li a {
+     text-transform: uppercase;
+     font-size: 15px;
+     padding: 7px 20px;
+     position: relative;
+     font-weight: 400;
+     overflow: hidden;
+     color: #000;
+}
+
+ .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
+     background: transparent;
+     color: #fff;
+     border-radius: ;
+}
+
+/* search bar */
+ .search-box {
+     position: absolute;
+     top: 0;
+     right: 50px;
+     height: auto;
+     padding: 0;
+     margin-top: 29px;
+}
+ .search-box:hover .search-txt{
+     width: 240px;
+     padding: 0 10px;
+}
+ .top-header #navbar-wd {
+     padding-right: 100px;
+}
+
+ .search-txt {
+     border: none;
+     outline: none;
+     float: left;
+     padding: 0;
+     color: #000;
+     font-size: 14px;
+     line-height: 41px;
+     width: 0;
+     transition: width 400ms;
+     background: #fff;
+     padding: 0;
+     font-weight: 300;
+}
+
+/*-------------------------------------------------Body-------------------------------------------------------------------------*/
+
+
+body {
+    background-image: url(bg_suport.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+
+    
+}
+
+/*-------------------------------------------------Formulario backgorund-------------------------------------------------------------------------*/
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: monospace;
+}
+
+/*-------------------------------------------------Formulario Style-------------------------------------------------------------------------*/
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/*-------------------------------------------------Boton Style-------------------------------------------------------------------------*/
+
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+/*----------------------------Figura del boton cuando se le apunta----------------------------------------------------*/
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
+
+/*----------------------------Complementos----------------------------------------------------*/
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    background: rgba(0,0,0,0.4);
+}
